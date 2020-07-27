@@ -75,8 +75,8 @@
                 de chameliers royaux. On ignore de quel site, sans doute assez proche de Bi’r Samut, 
                 elle a été envoyée.</p>
             
-            <!-- Div for the text of the ostracon.  @ana="hc:EmbeddedEdition" -->
-          <div source="./ddbdp.2020.1.xml">
+            <!-- Div for the text of the ostracon.-->
+          <div ana="hc:EmbeddedEdition" source="./ddbdp.2020.1.xml">
           <!-- This is the line with the metadata, as it is in the docx file. It will be created automatically from the Epidoc with an xslt transformation    -->
             <p>O.Sam. inv. 578 = TM 706233, BS 244.06, 23 février 223 av. J.‑C., 11,5 x 7,7 cm, pâte alluviale.</p>
             <!-- This is the text of the edition with a minimal epidoc format       -->

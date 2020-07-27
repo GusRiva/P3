@@ -76,7 +76,7 @@
                 elle a été envoyée.</p>
             
             <!-- Div for the text of the ostracon.  @ana="hc:EmbeddedEdition" -->
-          <div>
+          <div ana="hc:EmbeddedEdition">
               <ab><ptr target="./ddbdp.2020.1.xml"/></ab>
        <!-- THE CONTENT DOES NOT APPEAR  IN THE PUBLISHED FILE,
         IT IS IMPORTED FROM THE TEI FILE OF THE EDITION INTO A FORMAT LIKE IN EXAMPLE 3-SOURCE
