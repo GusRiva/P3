@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--We expand the epidoc schema into a schema that also allows to encode the article structure: div@type, p, note, figure ...
+   Maybe combining it with heiEditions?-->
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--This teiHeader contains the metadata of the whole article-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Journal Article </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+      <!--  Chapter 1   -->
+         <div>
+            <head>Title</head>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+         </div>
+         <div type="EmbeddedEdition" corresp="#dbdbddbdp.2020.1"></div>
+         <!--  Chapter x   -->
+         <div>
+            <head></head>
+            <p></p>
+         </div>
+      </body>
+   </text>
+<!--   This TEI element is a full epidoc edition-->
+   <TEI xml:id="dbdbddbdp.2020.1">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Information about the source</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p>Some text here.</p>
+         </body>
+      </text>
+   </TEI>   
+</TEI>
+
